@@ -1,7 +1,7 @@
 # Bootstrapping Nix and Linux from TinyCC
 
 * [Talk info](https://talks.nixcon.org/nixcon-2023/talk/DDQRWQ/)
-* [TBD Recording](https://media.ccc.de/v/not-there-yet)
+* [Recording](https://media.ccc.de/v/nixcon-2023-34402-bootstrapping-nix-and-linux-from-tinycc)
 
 Building every operating system starts from something. I'm not as hardcore as the stage0 project folks going from assembly to Guix, but a shorter path from a ~320 KB TinyCC binary to Nix to a proof-of-concept Linux distribution also proved to be a story worth telling.
 
