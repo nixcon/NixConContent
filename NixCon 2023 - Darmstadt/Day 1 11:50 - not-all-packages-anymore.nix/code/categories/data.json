@@ -1,0 +1,576 @@
+[
+  {
+    "name": "",
+    "id": 0
+  },
+  {
+    "name": "applications",
+    "id": 1,
+    "parent": 0
+  },
+  {
+    "name": "audio",
+    "id": 2,
+    "parent": 224
+  },
+  {
+    "name": "backup",
+    "id": 3,
+    "parent": 224
+  },
+  {
+    "name": "blockchains",
+    "id": 4,
+    "parent": 224
+  },
+  {
+    "name": "display-managers",
+    "id": 5,
+    "parent": 224
+  },
+  {
+    "name": "editors",
+    "id": 6,
+    "parent": 224
+  },
+  {
+    "name": "emulators",
+    "id": 14,
+    "parent": 224
+  },
+  {
+    "name": "file-managers",
+    "id": 15,
+    "parent": 224
+  },
+  {
+    "name": "gis",
+    "id": 16,
+    "parent": 224
+  },
+  {
+    "name": "graphics",
+    "id": 17,
+    "parent": 224
+  },
+  {
+    "name": "kde",
+    "id": 18,
+    "parent": 224
+  },
+  {
+    "name": "misc",
+    "id": 19,
+    "parent": 224
+  },
+  {
+    "name": "networking",
+    "id": 21,
+    "parent": 224
+  },
+  {
+    "name": "browsers",
+    "id": 22,
+    "parent": 21
+  },
+  {
+    "name": "cluster",
+    "id": 23,
+    "parent": 21
+  },
+  {
+    "name": "feedreaders",
+    "id": 24,
+    "parent": 21
+  },
+  {
+    "name": "instant-messengers",
+    "id": 25,
+    "parent": 21
+  },
+  {
+    "name": "irc",
+    "id": 28,
+    "parent": 21
+  },
+  {
+    "name": "mailreaders",
+    "id": 31,
+    "parent": 21
+  },
+  {
+    "name": "p2p",
+    "id": 32,
+    "parent": 21
+  },
+  {
+    "name": "remote",
+    "id": 33,
+    "parent": 21
+  },
+  {
+    "name": "sync",
+    "id": 34,
+    "parent": 21
+  },
+  {
+    "name": "office",
+    "id": 35,
+    "parent": 224
+  },
+  {
+    "name": "radio",
+    "id": 36,
+    "parent": 224
+  },
+  {
+    "name": "science",
+    "id": 37,
+    "parent": 224
+  },
+  {
+    "name": "astronomy",
+    "id": 38,
+    "parent": 37
+  },
+  {
+    "name": "biology",
+    "id": 39,
+    "parent": 37
+  },
+  {
+    "name": "chemistry",
+    "id": 40,
+    "parent": 37
+  },
+  {
+    "name": "electronics",
+    "id": 41,
+    "parent": 37
+  },
+  {
+    "name": "logic",
+    "id": 42,
+    "parent": 37
+  },
+  {
+    "name": "math",
+    "id": 43,
+    "parent": 37
+  },
+  {
+    "name": "misc",
+    "id": 44,
+    "parent": 37
+  },
+  {
+    "name": "physics",
+    "id": 45,
+    "parent": 37
+  },
+  {
+    "name": "terminal-emulators",
+    "id": 46,
+    "parent": 224
+  },
+  {
+    "name": "version-management",
+    "id": 47,
+    "parent": 224
+  },
+  {
+    "name": "video",
+    "id": 48,
+    "parent": 224
+  },
+  {
+    "name": "virtualization",
+    "id": 53,
+    "parent": 224
+  },
+  {
+    "name": "window-managers",
+    "id": 54,
+    "parent": 224
+  },
+  {
+    "name": "data",
+    "id": 63,
+    "parent": 0
+  },
+  {
+    "name": "fonts",
+    "id": 64,
+    "parent": 63
+  },
+  {
+    "name": "icons",
+    "id": 65,
+    "parent": 63
+  },
+  {
+    "name": "misc",
+    "id": 66,
+    "parent": 63
+  },
+  {
+    "name": "themes",
+    "id": 67,
+    "parent": 63
+  },
+  {
+    "name": "desktops",
+    "id": 68,
+    "parent": 0
+  },
+  {
+    "name": "development",
+    "id": 93,
+    "parent": 0
+  },
+  {
+    "name": "compilers",
+    "id": 95,
+    "parent": 93
+  },
+  {
+    "name": "embedded",
+    "id": 116,
+    "parent": 93
+  },
+  {
+    "name": "interpreters",
+    "id": 120,
+    "parent": 93
+  },
+  {
+    "name": "libraries",
+    "id": 123,
+    "parent": 93
+  },
+  {
+    "name": "audio",
+    "id": 124,
+    "parent": 123
+  },
+  {
+    "name": "physics",
+    "id": 128,
+    "parent": 123
+  },
+  {
+    "name": "science",
+    "id": 134,
+    "parent": 123
+  },
+  {
+    "name": "biology",
+    "id": 135,
+    "parent": 134
+  },
+  {
+    "name": "chemistry",
+    "id": 136,
+    "parent": 134
+  },
+  {
+    "name": "math",
+    "id": 137,
+    "parent": 134
+  },
+  {
+    "name": "misc",
+    "id": 142,
+    "parent": 93
+  },
+  {
+    "name": "mobile",
+    "id": 143,
+    "parent": 93
+  },
+  {
+    "name": "tools",
+    "id": 153,
+    "parent": 93
+  },
+  {
+    "name": "analysis",
+    "id": 154,
+    "parent": 153
+  },
+  {
+    "name": "build-managers",
+    "id": 155,
+    "parent": 153
+  },
+  {
+    "name": "continuous-integration",
+    "id": 157,
+    "parent": 153
+  },
+  {
+    "name": "database",
+    "id": 158,
+    "parent": 153
+  },
+  {
+    "name": "language-servers",
+    "id": 159,
+    "parent": 153
+  },
+  {
+    "name": "misc",
+    "id": 160,
+    "parent": 153
+  },
+  {
+    "name": "ocaml",
+    "id": 162,
+    "parent": 153
+  },
+  {
+    "name": "parsing",
+    "id": 163,
+    "parent": 153
+  },
+  {
+    "name": "rust",
+    "id": 168,
+    "parent": 153
+  },
+  {
+    "name": "web",
+    "id": 169,
+    "parent": 93
+  },
+  {
+    "name": "games",
+    "id": 170,
+    "parent": 0
+  },
+  {
+    "name": "doom-ports",
+    "id": 171,
+    "parent": 170
+  },
+  {
+    "name": "misc",
+    "id": 172,
+    "parent": 0
+  },
+  {
+    "name": "cups",
+    "id": 173,
+    "parent": 172
+  },
+  {
+    "name": "drivers",
+    "id": 175,
+    "parent": 172
+  },
+  {
+    "name": "screensavers",
+    "id": 176,
+    "parent": 172
+  },
+  {
+    "name": "os-specific",
+    "id": 177,
+    "parent": 0
+  },
+  {
+    "name": "bsd",
+    "id": 178,
+    "parent": 177
+  },
+  {
+    "name": "darwin",
+    "id": 179,
+    "parent": 177
+  },
+  {
+    "name": "linux",
+    "id": 181,
+    "parent": 177
+  },
+  {
+    "name": "firmware",
+    "id": 182,
+    "parent": 181
+  },
+  {
+    "name": "kernel",
+    "id": 183,
+    "parent": 181
+  },
+  {
+    "name": "servers",
+    "id": 185,
+    "parent": 0
+  },
+  {
+    "name": "dns",
+    "id": 186,
+    "parent": 185
+  },
+  {
+    "name": "http",
+    "id": 187,
+    "parent": 185
+  },
+  {
+    "name": "mail",
+    "id": 189,
+    "parent": 185
+  },
+  {
+    "name": "misc",
+    "id": 191,
+    "parent": 185
+  },
+  {
+    "name": "monitoring",
+    "id": 192,
+    "parent": 185
+  },
+  {
+    "name": "nosql",
+    "id": 194,
+    "parent": 185
+  },
+  {
+    "name": "search",
+    "id": 196,
+    "parent": 185
+  },
+  {
+    "name": "sql",
+    "id": 197,
+    "parent": 185
+  },
+  {
+    "name": "web-apps",
+    "id": 200,
+    "parent": 185
+  },
+  {
+    "name": "x11",
+    "id": 203,
+    "parent": 185
+  },
+  {
+    "name": "shells",
+    "id": 204,
+    "parent": 0
+  },
+  {
+    "name": "tools",
+    "id": 224,
+    "parent": 0
+  },
+  {
+    "name": "admin",
+    "id": 225,
+    "parent": 1
+  },
+  {
+    "name": "archivers",
+    "id": 226,
+    "parent": 1
+  },
+  {
+    "name": "audio",
+    "id": 227,
+    "parent": 1
+  },
+  {
+    "name": "backup",
+    "id": 228,
+    "parent": 1
+  },
+  {
+    "name": "cd-dvd",
+    "id": 229,
+    "parent": 1
+  },
+  {
+    "name": "compression",
+    "id": 230,
+    "parent": 1
+  },
+  {
+    "name": "filesystems",
+    "id": 231,
+    "parent": 1
+  },
+  {
+    "name": "games",
+    "id": 232,
+    "parent": 1
+  },
+  {
+    "name": "graphics",
+    "id": 233,
+    "parent": 1
+  },
+  {
+    "name": "inputmethods",
+    "id": 234,
+    "parent": 1
+  },
+  {
+    "name": "misc",
+    "id": 236,
+    "parent": 1
+  },
+  {
+    "name": "networking",
+    "id": 237,
+    "parent": 1
+  },
+  {
+    "name": "nix",
+    "id": 239,
+    "parent": 1
+  },
+  {
+    "name": "security",
+    "id": 241,
+    "parent": 1
+  },
+  {
+    "name": "system",
+    "id": 242,
+    "parent": 1
+  },
+  {
+    "name": "text",
+    "id": 243,
+    "parent": 1
+  },
+  {
+    "name": "typesetting",
+    "id": 244,
+    "parent": 1
+  },
+  {
+    "name": "video",
+    "id": 246,
+    "parent": 1
+  },
+  {
+    "name": "virtualization",
+    "id": 247,
+    "parent": 1
+  },
+  {
+    "name": "wayland",
+    "id": 248,
+    "parent": 1
+  },
+  {
+    "name": "X11",
+    "id": 249,
+    "parent": 1
+  }
+]
