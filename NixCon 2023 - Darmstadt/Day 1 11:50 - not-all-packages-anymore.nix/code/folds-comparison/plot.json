@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data.json"
+  },
+  "repeat": {
+    "layer": ["linear", "tree"]
+  },
+  "background": null,
+  "spec": {
+    "width": 600,
+    "height": 250,
+    "mark": {
+      "type": "line",
+      "strokeWidth": 4,
+      "color": "#284C97"
+    },
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null
+      },
+      "y": {
+        "field": { "repeat": "layer" },
+        "type": "quantitative",
+        "aggregate": "mean",
+        "title": "Allocated Attributes"
+      },
+      "color": {
+        "datum": { "repeat": "layer" },
+        "type": "nominal",
+        "legend": {
+          "labelExpr": "datum.label == 'linear' ? 'Linear fold' : 'Tree fold'",
+          "orient": "top",
+          "labelFontSize": 18,
+          "symbolStrokeWidth": 4,
+          "symbolSize": 1000
+        },
+        "scale": {
+          "domain": ["linear", "tree" ],
+          "range": ["#db4437", "#0f9d58" ]
+        }
+      }
+    }
+  }
+
+}

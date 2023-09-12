@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data.json"
+  },
+  "background": null,
+  "width": 600,
+  "height": 250,
+  "mark": {
+    "type": "area",
+    "color": {
+      "gradient": "linear",
+      "stops": [
+        {
+          "offset": 1,
+          "color": "#284C97"
+        },
+        {
+          "offset": 0,
+          "color": "#2357BD"
+        }
+      ]
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null
+    },
+    "y": {
+      "field": "size",
+      "type": "quantitative",
+      "aggregate": "mean",
+      "axis": {"format": ".2~s"},
+      "title": "Bytes"
+    }
+  }
+}
