@@ -1,4 +1,0 @@
-# 
-
-* [Talk info]()
-* [Recording](
